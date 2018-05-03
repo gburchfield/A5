@@ -1,0 +1,21 @@
+{
+  "name": "bouta5",
+  "version": "1.0.0",
+  "description": "Software application that manages the logistics of building, delivering and sustaining  the ALIS Enterprise",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test nodemon --exec 'mocha --recursive -R min'"
+  },
+  "author": "Glen Burchfield",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "supertest": "^3.0.0"
+  }
+}
